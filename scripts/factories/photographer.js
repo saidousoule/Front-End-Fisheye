@@ -19,5 +19,4 @@ function photographerFactory(data) {
 // spread operator
 // Json() 
 // url search params
-
 // realiser la page photographers.js et prendre les données d'un seul photographe
