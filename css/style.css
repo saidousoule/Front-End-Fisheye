@@ -49,4 +49,19 @@ h1 {
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
+
 }
+
+/*nth-child permet de selection un element enfant de notre choix
+le chiffre entre parentaise definis l'élement enfant selectionné.*/
+.photographer_section article article :nth-child(2) {
+    font-size: 0.625em;
+    color: black;
+    margin: 3px 0 0 0;
+}
+
+.photographer_section article article p {
+    font-size: 0.5625em;
+    color: #757575;
+    margin: 3px 0 0 0;
+  }

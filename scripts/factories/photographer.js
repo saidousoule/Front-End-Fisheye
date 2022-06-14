@@ -19,6 +19,7 @@ function photographerFactory(data) {
         const img = document.createElement("img");
         img.setAttribute("src", picture);
         img.setAttribute("alt", " ");
+        //alt remplace l'img en cas de problème par un texte.
 
         const h2 = document.createElement("h2");
         h2.textContent = name;
