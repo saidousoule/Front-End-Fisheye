@@ -78,3 +78,5 @@ export default function mediaFactory(data) {
     getMediaCardDOM,
   };
 }
+
+// enlever les surplus de code
